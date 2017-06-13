@@ -36,7 +36,7 @@ class ScreenshotsCloud {
 
 		$queryString = implode('&', $query);
 
-		$token = hash_hmac("sha1", defined('SCREENSHOTSCLOUD_URLTOKEN') && SCREENSHOTSCLOUD_URLTOKEN?$options['url']:$queryString, $apiSecret);
+		$token = hash_hmac("sha1", $queryString, $apiSecret);
 
 		return "$domain/v1/screenshot/$apiKey/$token?$queryString";
 	}

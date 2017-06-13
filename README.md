@@ -4,7 +4,7 @@
 
 ## Perfect Screenshots Anywhere
 
-Get high quality screenshots using a real browser in seconds using our reliable CDN backed service
+Get high quality real browser screenshots in seconds using our reliable CDN backed API service
 
 ## Requirements
 
