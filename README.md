@@ -58,7 +58,7 @@ These are the options you can use to customize your screenshot.
 | cache_time | 2592000 | Amount of time in milliseconds to wait before taking a fresh screenshot for the same request. Maximum 2592000 (30 days), minimum 1. |
 | force | false | Force a new screenshot to be taken with no cache. |
 | user_agent | Latest Firefox User Agent | Set the user agent this screenshot will identify as. Useful for identifying as a mobile or tablet browser or to identify as a specific browser if the website pretends it needs Internet Explorer. |
-| language | false | Trim the excess space around the resulting screenshot using the most top left pixel color, useful for SVG's. |
+| trim | false | Trim the excess space around the resulting screenshot using the most top left pixel color, useful for SVG's. |
 | transparent | false | Remove the background from the page, PNG format required. |
 | language | en | Accept-Language header customization for websites that support it, set ja for Japanese, de for German etc. |
 | cookie | | Semi colon separated list of cookies e.g. fruit=apple; drink=tea |
