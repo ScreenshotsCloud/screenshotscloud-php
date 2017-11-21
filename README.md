@@ -50,12 +50,12 @@ These are the options you can use to customize your screenshot.
 | url | | **Required.** The website address that you want to take a screenshot of. |
 | width | 1920 | Width of the thumbnail. This option is only valid for png or jpg format options. |
 | viewport_width | 1920 | Width of the browser viewport this is the actual width of the page before we resize it for the thumbnail. |
-| viewport_height | (1200) | Height of the browser viewport, if you do not give this parameter we will calculate it for you based on viewport_width in 16:10 ratio. |
+| viewport_height | (1320) | Height of the browser viewport, if you do not give this parameter we will calculate it for you based on viewport_width in 16:10 ratio. |
 | full_page | false | Capture a full length screenshot of the requested page. If the format is pdf this option will always be true. |
 | format | png | Output the screenshot as a PNG (png), JPEG (jpg) image or PDF (pdf). |
 | quality | 95 (if format=jpg) | Set the jpeg quality of the screenshot if jpeg is set as the format. |
 | delay | 250 | Amount of time to wait in milliseconds before taking a screenshot of the page after it is fully loaded. Maximum 60000 (1 minute), minimum 100. |
-| cache_time | 2592000 | Amount of time in milliseconds to wait before taking a fresh screenshot for the same request. Maximum 2592000 (30 days), minimum 1. |
+| cache_time | 2592000 | Amount of time in seconds to wait before taking a fresh screenshot for the same request. Maximum 2592000 (30 days), minimum 1. |
 | force | false | Force a new screenshot to be taken with no cache. |
 | user_agent | Latest Firefox User Agent | Set the user agent this screenshot will identify as. Useful for identifying as a mobile or tablet browser or to identify as a specific browser if the website pretends it needs Internet Explorer. |
 | trim | false | Trim the excess space around the resulting screenshot using the most top left pixel color, useful for SVG's. |
