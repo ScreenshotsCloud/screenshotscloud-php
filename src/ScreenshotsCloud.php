@@ -31,7 +31,7 @@ class ScreenshotsCloud {
 		$query = [];
 
 		foreach ($options as $key => $value) {
-			$query[] = $key . '=' . rawurlencode($value);
+			$query[] = $key . '=' . urlencode($value);
 		}
 
 		$queryString = implode('&', $query);

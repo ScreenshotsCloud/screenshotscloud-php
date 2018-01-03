@@ -64,7 +64,7 @@ These are the options you can use to customize your screenshot.
 | cookie | | Semi colon separated list of cookies e.g. fruit=apple; drink=tea |
 | disable_javascript | false | Don't execute javascript on this page. |
 | disable_images | false | Don't download images on this page. |
-| timeout | 300000 | Amount of time in milliseconds to wait before taking screenshot anyway. Maximum 300000 (5 minutes). |
+| timeout | 300000 | Amount of time in milliseconds to wait before taking the screenshot anyway. Maximum 300000 (5 minutes). |
 | mobile | false | Shortcut to set pixel_ratio, user_agent, viewport_width, viewport_height and width to that of the latest iPhone. |
 | pixel_ratio | 1 | Multiplier that sets the pixel density of the page relative to the resolution, useful for taking retina screenshots (2). |
 | click_selector | | Accepts valid DOM selector (#wantedselector). Rendered screenshot will only display contents of DOM selector. |
