@@ -29,9 +29,9 @@ class ScreenshotsCloud {
 		$options = $options?:[];
 
 		$query = [];
-
+		
 		foreach ($options as $key => $value) {
-			$query[] = $key . '=' . urlencode($value);
+			$query[] = $key . '=' . urlencode($value?:0);
 		}
 
 		$queryString = implode('&', $query);

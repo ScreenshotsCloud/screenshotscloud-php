@@ -1,6 +1,6 @@
 {
 	"name": "screenshotscloud/screenshotscloud",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "ScreenshotsCloud PHP screenshot generator",
 	"type": "library",
 	"authors": [{
