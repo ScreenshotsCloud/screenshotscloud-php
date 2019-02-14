@@ -10,7 +10,9 @@ Get an API Key to start using this fast screenshot API service at [ScreenshotsCl
 
 ## Requirements
 
-Tested against PHP 5.3+ and 7+
+Tested against PHP 5.6+ and 7+
+
+Earlier versions of PHP 5 will most likely work without issue.
 
 ## Installation
 
