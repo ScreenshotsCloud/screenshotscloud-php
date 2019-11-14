@@ -26,15 +26,7 @@ class ScreenshotsCloud {
 
 		$domain = defined('SCREENSHOTSCLOUD_DOMAIN')?SCREENSHOTSCLOUD_DOMAIN:'https://api.screenshots.cloud';
 
-		$options = $options?:[];
-
-		$query = [];
-		
-		foreach ($options as $key => $value) {
-			$query[] = $key . '=' . urlencode($value?:0);
-		}
-
-		$queryString = implode('&', $query);
+		$queryString = http_build_query($options);
 
 		$token = hash_hmac("sha1", $queryString, $apiSecret);
 
